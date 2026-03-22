@@ -623,13 +623,11 @@ p:last-child {
   }
 
   .nav-links {
+    display: flex;
     flex-direction: column;
-    gap: 0;
-  }
-
-  .nav-links li a {
-    padding: 8px 12px;
-    font-size: 0.8rem;
+    gap: 1rem;
+    align-items: center;
+    padding: 12px 0;
   }
 
   .hero-name {
